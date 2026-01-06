@@ -1,113 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Personal webpage for Miranda Mundt, Research Software Engineer" />
-        <meta name="author" content="Miranda Mundt" />
-        <title>Miranda Mundt | Research Software Engineer</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Research Software Engineer</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Publications</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Personal webpage for Miranda Mundt, Research Software Engineer" />
+    <meta name="author" content="Miranda Mundt" />
+    <title>Miranda Mundt | Research Software Engineer</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Research Software Engineer</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#interests">Interests</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <!-- New page -->
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="resume.html">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <img class="masthead-avatar mb-5" src="assets/img/headshot.png" alt="Headshot of Miranda Mundt" />
+        <h1 class="masthead-heading text-uppercase mb-0">Miranda Mundt</h1>
+
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0">Research Software Engineer - Researcher - Practitioner</p>
+
+        <!-- Quick CTAs -->
+        <div class="mt-4">
+          <a class="btn btn-outline-light btn-lg mx-1" href="#projects"><i class="fa-solid fa-diagram-project me-2"></i>Projects</a>
+          <a class="btn btn-outline-light btn-lg mx-1" href="resume.html"><i class="fa-solid fa-file-lines me-2"></i>Resume</a>
+          <a class="btn btn-outline-light btn-lg mx-1" href="assets/Mundt_CV.pdf" target="_blank" rel="noopener">
+            <i class="fa-solid fa-download me-2"></i>Download CV
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Projects Section-->
+    <section class="page-section projects" id="projects">
+      <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
+            <div class="col text-center">
+              <img class="rounded mx-auto d-block" src="assets/img/portfolio/idaes.png" alt="IDAES" />
+              <br />
+              <a class="btn btn-outline-dark btn-lg" href="https://idaes.org/" role="button" target="_blank">IDAES</a>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/headshot.png" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Miranda Mundt</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Research Software Engineer - Researcher - Practitioner</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
+            <div class="col text-center">
+              <img class="rounded mx-auto d-block" src="assets/img/portfolio/pyomo.png" alt="Pyomo" />
+              <br />
+              <a class="btn btn-outline-dark btn-lg" href="https://github.com/pyomo/pyomo" role="button" target="_blank">Pyomo</a>
             </div>
-        </header>
-		<!-- Projects Section-->
-		<section class="page-section projects" id="projects">
-		    <div class="container">
-		        <!-- Projects Section Heading-->
-		        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
-		
-		        <!-- Icon Divider-->
-		        <div class="divider-custom">
-		            <div class="divider-custom-line"></div>
-		            <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
-		            <div class="divider-custom-line"></div>
-		        </div>
-		
-		        <!-- Projects Grid Items-->
-		        <div class="row">
-		
-		            <!-- Project Item 1-->
-		            <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
-		                <div class="col text-center">
-		                    <img class="rounded mx-auto d-block" src="assets/img/portfolio/idaes.png" alt="IDAES" />
-		                    <br>
-		                    <a class="btn btn-outline-dark btn-lg" href="https://idaes.org/" role="button" target="_blank">IDAES</a>
-		                </div>
-		            </div>
-		
-		            <!-- Project Item 2-->
-		            <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
-		                <div class="col text-center">
-		                    <img class="rounded mx-auto d-block" src="assets/img/portfolio/pyomo.png" alt="Pyomo" />
-		                    <br>
-		                    <a class="btn btn-outline-dark btn-lg" href="https://github.com/pyomo/pyomo" role="button" target="_blank">Pyomo</a>
-		                </div>
-		            </div>
-		
-		            <!-- Project Item 3-->
-		            <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
-		                <div class="col text-center">
-		                    <img class="rounded mx-auto d-block" src="assets/img/portfolio/usrse.png" alt="US-RSE" />
-		                    <br>
-		                    <a class="btn btn-outline-dark btn-lg" href="https://us-rse.org" role="button" target="_blank">US-RSE</a>
-		                </div>
-		            </div>
-		
-		            <!-- Project Item 4 (FAIR(ER))-->
-		            <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
-		                <div class="col text-center">
-		                    <img class="rounded mx-auto d-block" src="assets/img/portfolio/cropped-SNL_thunderbird.png" alt="FAIR(ER)" />
-		                    <br>
-		                    <a class="btn btn-outline-dark btn-lg" href="https://www.sandia.gov/fairer-data" role="button" target="_blank">FAIR(ER)</a>
-		                </div>
-		            </div>
-		
-		        </div>
-		    </div>
-		</section>
-		<!-- Publications Section-->
-        <section class="page-section bg-primary text-white mb-0" id="publications">
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
+            <div class="col text-center">
+              <img class="rounded mx-auto d-block" src="assets/img/portfolio/usrse.png" alt="US-RSE" />
+              <br />
+              <a class="btn btn-outline-dark btn-lg" href="https://us-rse.org" role="button" target="_blank">US-RSE</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 justify-content-center">
+            <div class="col text-center">
+              <img class="rounded mx-auto d-block" src="assets/img/portfolio/cropped-SNL_thunderbird.png" alt="FAIR(ER)" />
+              <br />
+              <a class="btn btn-outline-dark btn-lg" href="https://www.sandia.gov/fairer-data" role="button" target="_blank">FAIR(ER)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional: add quick project blurbs -->
+        <div class="row mt-4">
+          <div class="col-lg-10 mx-auto">
+            <p class="lead text-center">
+              I build and modernize research software that has to be correct, reproducible, and sustainable, spanning CI/CD,
+              developer productivity, and operational resilience for widely used scientific tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section-->
+    <section class="page-section bg-primary text-white mb-0" id="publications">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Publications</h2>
@@ -129,59 +159,130 @@
 				</div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">
-					Miranda Mundt is a Research Software Engineer (RSE) and senior member of technical
-					staff with the Department of Software Engineering and Research,
-					Sandia National Laboratories, with an interdisciplinary background
-					in applied mathematics, economics, and software engineering. She is currently pursuing her
-					Masters in Software Engineering from ASU (anticipated graduation: Fall 2025).</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">
-					She is also an active member of the US-RSE Association, for which
-					she serves as a Steering Committee member for the 2023-2026 term.
-		    			She served as the co-General Chair for <a href="https://us-rse.org/usrse24" target="_blank">US-RSE'24</a>, which took place
-		    			October 15-17, 2024, in Albuquerque, NM.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Contact</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:miranda.r.mundt@gmail.com"><i class="fa-solid fa-fw fa-envelope"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mirandamundt/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-						
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Miranda Mundt</small></div>
+
+    <!-- About Section-->
+    <section class="page-section" id="about">
+      <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase">About</h2>
+
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-code"></i></div>
+          <div class="divider-custom-line"></div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+
+        <div class="row">
+          <div class="col-lg-4 ms-auto">
+            <p class="lead">
+              I’m a Research Software Engineer and Senior Member of Technical Staff at Sandia National Laboratories.
+              I work at the intersection of software architecture, reliability, and scientific computing.
+            </p>
+          </div>
+
+          <div class="col-lg-4 me-auto">
+            <p class="lead">
+              My background spans applied mathematics, economics, and software engineering. I focus on sustainable engineering
+              practices (CI/CD, observability, reproducibility) and open-source community health, particularly for large,
+              distributed developer ecosystems.
+            </p>
+          </div>
+        </div>
+
+        <!-- Leadership highlights -->
+        <div class="row mt-4">
+          <div class="col-lg-8 mx-auto">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h4 class="text-uppercase text-center mb-3">Leadership & Service (highlights)</h4>
+                <ul class="lead mb-0">
+                  <li>US-RSE Association Steering Committee member (elected terms) and former US-RSE’24 General Chair</li>
+                  <li>Invited Editor, Research Software Engineering Department (IEEE Computing in Science & Engineering)</li>
+                  <li>Founder/administrator of the Research Software Engineering Community of Practice at Sandia National Laboratories</li>
+                </ul>
+                <div class="text-center mt-3">
+                  <a class="btn btn-outline-dark" href="resume.html#leadership"><i class="fa-solid fa-arrow-right me-2"></i>More details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="page-section bg-light" id="interests">
+      <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Personal Interests</h2>
+
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fa-solid fa-heart"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p class="lead text-center">
+              Outside of work, here are a few things that I enjoy:
+            </p>
+
+            <div class="row text-center mt-4">
+              <div class="col-md-4 mb-4">
+                <i class="fa-solid fa-mountain-sun fa-2xl mb-3"></i>
+                <h5 class="text-uppercase">Baking</h5>
+                <p class="mb-0">
+                  From technically challenging projects to dependable favorites. I enjoy
+                  experimenting, but I care just as much about understanding what makes a recipe
+                  work consistently.
+                </p>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <i class="fa-solid fa-book fa-2xl mb-3"></i>
+                <h5 class="text-uppercase">Reading</h5>
+                <p class="mb-0">
+                  I'm an avid reader, mostly of fiction. I love getting lost in
+                  other worlds and stories, especially ones that explore
+                  possibility, change, and how people navigate complex systems.
+                  Bonus points for unique magic systems.
+                </p>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <i class="fa-solid fa-mug-hot fa-2xl mb-3"></i>
+                <h5 class="text-uppercase">Traveling</h5>
+                <p class="mb-0">
+                  I love exploring new places, especially through food and the people I meet.
+                  Disneyland is my reliable home base, but curiosity still takes me everywhere else.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0 mx-auto">
+            <h4 class="text-uppercase mb-4">Contact</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="mailto:miranda.r.mundt@gmail.com"><i class="fa-solid fa-fw fa-envelope"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mirandamundt/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://mrmundt.github.io" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container"><small>Copyright &copy; Miranda Mundt</small></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
 </html>
